@@ -7,7 +7,7 @@ exactly n H characters in the file.
 '''
 
 
-def minOperations(n):
+def minOperations(n: int) -> int:
     '''returns the minimum no of operations'''
     if n <= 1:  # If 'n' is 1, it's impossible to achieve more 'H'
         return 0
